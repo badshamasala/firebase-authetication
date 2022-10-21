@@ -32,6 +32,7 @@ class _LoginPageState extends State<LoginPage> {
         ],
       ),
       body: Column(children: [
+        Text('njsdjsnnsbnsbns'),
         CircleAvatar(
           backgroundImage: NetworkImage(user.photoURL!),
         ),
