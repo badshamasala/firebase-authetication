@@ -6,6 +6,7 @@ import 'package:flutter_application_1/google.dart';
 import 'package:flutter_application_1/homepage.dart';
 import 'package:flutter_application_1/list.dart';
 import 'package:flutter_application_1/newfile.dart';
+import 'package:flutter_application_1/phoneauth.dart';
 import 'package:flutter_application_1/practise.dart';
 import 'package:flutter_application_1/provider.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
         title: 'Flutter Demo',
         theme: ThemeData(),
         // home: const MyHomePage(title: 'Flutter Demo Home Page'),
-        home: ShopPage(),
+        home: PhoneAuth(),
       ),
     );
   }
