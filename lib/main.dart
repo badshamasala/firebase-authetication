@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/GETX/shoppingpage.dart';
 import 'package:flutter_application_1/disablebutton.dart';
 import 'package:flutter_application_1/google.dart';
 import 'package:flutter_application_1/homepage.dart';
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         title: 'Flutter Demo',
         theme: ThemeData(),
         // home: const MyHomePage(title: 'Flutter Demo Home Page'),
-        home: HomePage(),
+        home: ShopPage(),
       ),
     );
   }
