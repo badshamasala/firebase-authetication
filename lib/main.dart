@@ -1,10 +1,12 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/GETX/shoppingpage.dart';
+import 'package:flutter_application_1/apipostkiheck.dart';
 import 'package:flutter_application_1/disablebutton.dart';
 import 'package:flutter_application_1/google.dart';
 import 'package:flutter_application_1/homepage.dart';
 import 'package:flutter_application_1/list.dart';
+import 'package:flutter_application_1/modalbotttomsheet.dart';
 import 'package:flutter_application_1/newfile.dart';
 import 'package:flutter_application_1/phoneauth.dart';
 import 'package:flutter_application_1/practise.dart';
@@ -34,7 +36,7 @@ class MyApp extends StatelessWidget {
         title: 'Flutter Demo',
         theme: ThemeData(),
         // home: const MyHomePage(title: 'Flutter Demo Home Page'),
-        home: PhoneAuth(),
+        home: MyWidget11(),
       ),
     );
   }
