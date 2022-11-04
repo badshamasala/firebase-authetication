@@ -11,6 +11,7 @@ import 'package:flutter_application_1/newfile.dart';
 import 'package:flutter_application_1/phoneauth.dart';
 import 'package:flutter_application_1/practise.dart';
 import 'package:flutter_application_1/provider.dart';
+import 'package:flutter_application_1/staggrid.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:provider/provider.dart';
 import 'package:sizer/sizer.dart';
@@ -36,7 +37,7 @@ class MyApp extends StatelessWidget {
         title: 'Flutter Demo',
         theme: ThemeData(),
         // home: const MyHomePage(title: 'Flutter Demo Home Page'),
-        home: MyWidget11(),
+        home: MyWidget111(),
       ),
     );
   }
