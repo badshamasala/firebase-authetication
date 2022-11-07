@@ -58,7 +58,7 @@ class _Api1234State extends State<Api1234> {
     var jsondata = jsonDecode(response.body);
     print(response.body);
 
-    var status = jsondata['status'];
+    var status = jsondata[0]['status'];
     print('-------');
     print(status);
 
