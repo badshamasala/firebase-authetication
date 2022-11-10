@@ -1,20 +1,11 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/GETX/shoppingpage.dart';
-import 'package:flutter_application_1/apipostkiheck.dart';
-import 'package:flutter_application_1/disablebutton.dart';
-import 'package:flutter_application_1/google.dart';
-import 'package:flutter_application_1/homepage.dart';
+import 'package:flutter_application_1/CHAT_APP/chatapp.dart';
+import 'package:flutter_application_1/checkphoneauth.dart';
 import 'package:flutter_application_1/list.dart';
-import 'package:flutter_application_1/modalbotttomsheet.dart';
-import 'package:flutter_application_1/newfile.dart';
-import 'package:flutter_application_1/phoneauth.dart';
-import 'package:flutter_application_1/practise.dart';
 import 'package:flutter_application_1/provider.dart';
-import 'package:flutter_application_1/staggrid.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:provider/provider.dart';
-import 'package:sizer/sizer.dart';
 
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -37,7 +28,7 @@ class MyApp extends StatelessWidget {
         title: 'Flutter Demo',
         theme: ThemeData(),
         // home: const MyHomePage(title: 'Flutter Demo Home Page'),
-        home: MyWidget111(),
+        home: Checkphoneauth(),
       ),
     );
   }
